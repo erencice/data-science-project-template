@@ -324,25 +324,6 @@ mlruns/
 
 ## 🛠️ Yaygın Kullanılan Ek Komutlar
 
-### 🐍 Python Paket Yönetimi
-
-```bash
-# Yüklü paketleri listele
-pip list
-
-# Paket bilgilerini görüntüle
-pip show package_name
-
-# Paketleri güncelle
-pip install --upgrade package_name
-
-# Requirements dosyası oluştur
-pip freeze > requirements.txt
-
-# Requirements'tan yükle
-pip install -r requirements.txt
-```
-
 ### 📓 Jupyter & Notebook
 
 ```bash
@@ -354,22 +335,6 @@ jupyter notebook
 
 # Notebook'u Python scriptine çevir
 jupyter nbconvert --to python notebook.ipynb
-```
-
-### 🧪 Test & Kod Kalitesi
-
-```bash
-# Testleri çalıştır
-pytest tests/
-
-# Kod formatla
-black src/
-
-# Kod kalitesini kontrol et
-flake8 src/
-
-# Tip kontrolü
-mypy src/
 ```
 
 ---
